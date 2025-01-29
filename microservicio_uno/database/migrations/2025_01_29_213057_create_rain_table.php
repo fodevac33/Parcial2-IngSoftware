@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('rain', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->integer('duratio_minutes');
+            $table->integer('duration_minutes');
             $table->integer('city_id')->references('id')->on('cities');
             $table->integer('amount_mm');
             $table->boolean('zone_in_risk');
