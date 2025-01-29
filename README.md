@@ -1,4 +1,4 @@
-## JUAN FELIPE OSORIO FRANCO
+## CC 1005691942
 
 Se uso sqlite3 en lugar de mysql. En los .env poner en la seccion de base de datos:
 
